@@ -18,6 +18,11 @@
         }
         .poppins{
             font-family: 'Poppins', sans-serif;
+        }
+        .bg-img
+        {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/banner.png');
+            
         }        
     </style>
     <!-- Font Awesome -->
@@ -40,7 +45,7 @@
     <!-- Header Starts -->
     <header>
     <!-- Navbar Starts  -->
-    <nav>
+    <nav class="p-5">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
               <div class="dropdown">
@@ -76,6 +81,28 @@
           </div>
     </nav>
     <!-- Navbar Ends -->
+    <!-- Banner Starts -->
+    <section class=" text-[#fff]">
+        <div class="hero bg-img " >
+            
+            <div class="hero-content text-center text-neutral-content p-32">
+              <div class="max-w-lg">
+                <h1 class="mb-5 text-5xl garamond font-extrabold">We Provide Effective <br>Legal Solutions</h1>
+                <p class="mb-5 text-base ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+                <div class="flex items-center justify-center space-x-4">
+                    <input type="email" placeholder="Search your services" class="border border-gray-300 rounded-lg p-2 w-96" />
+                    <button><a class="p-3 px-7 w-11 rounded-xl text-white bg-[#B68C5A]">Search</a></button>
+                  </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- Banner Section Ends -->
+
+
+
+
     </header>
     <main>
 
@@ -85,3 +112,4 @@
     </footer>
 </body>
 </html>
+
